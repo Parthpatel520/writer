@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #02010A;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1660px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.containerS {
+    max-width: 1580px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+@layer base {
+    @font-face {
+        font-family: "Marydale";
+        src: url("./assets/font/marydale/MARYDALB.ttf") format("truetype");
+
+    }
+
+}
+
