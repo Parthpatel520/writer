@@ -9,7 +9,7 @@ import Avatar from '../assets/images/Avatar.png'
 import Avatar1 from '../assets/images/Avatar1.png'
 import Avatar2 from '../assets/images/Avatar2.png'
 import Overflow from '../assets/images/Overflow.png'
-import Sd_3 from '../assets/images/sd_3.png'
+import Sd_3 from '../assets/images/Avatar1.png'
 
 
 
