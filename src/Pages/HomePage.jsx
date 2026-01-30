@@ -6,7 +6,7 @@ import s4_2 from '../assets/images/s4_2.jpg'
 import s4_3 from '../assets/images/s4_3.jpg'
 import s4_4 from '../assets/images/s4_4.jpg'
 
-function Home() {
+function HomePage() {
     return (
         <>
             <Layout>
@@ -28,30 +28,30 @@ function Home() {
                             <p className='text-[56px] leading-[100%] font-semibold font-[Raleway]'>Featured&nbsp;<span className='font-[Marydale] font-bold'>Topic</span></p>
                         </div>
                         <div className='max-w-full'>
-                            <div class="flex flex-wrap gap-6">
-                                <a href="#" class="group flex-1 min-w-[250px] overflow-hidden  transform transition-all duration-500 ease-in-out hover:flex-[1.7] ">
-                                    <div class="overflow-hidden">
-                                        <img src="https://cdn.sanity.io/images/t24406rz/production/35b1c4f41bad16e0422e50465c9de0da09bbcb54-2000x1333.webp?w=1920&q=100&fit=clip&auto=format" alt="Card 1" class="w-full h-64 sm:h-80 object-cover transform transition duration-500 ease-in-out group-hover:scale-110" />
+                            <div className="flex flex-wrap gap-6">
+                                <a href="#" className="group flex-1 min-w-[250px] overflow-hidden  transform transition-all duration-500 ease-in-out hover:flex-[1.7] ">
+                                    <div className="overflow-hidden">
+                                        <img src="https://cdn.sanity.io/images/t24406rz/production/35b1c4f41bad16e0422e50465c9de0da09bbcb54-2000x1333.webp?w=1920&q=100&fit=clip&auto=format" alt="Card 1" className="w-full h-64 sm:h-80 object-cover transform transition duration-500 ease-in-out group-hover:scale-110" />
                                     </div>
-                                    <div class="p-4 transition-transform duration-500 ease-in-out group-hover:-translate-y-2" >
-                                        <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">
+                                    <div className="p-4 transition-transform duration-500 ease-in-out group-hover:-translate-y-2" >
+                                        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-2">
                                             New technology is not good or evil in and of itself
                                         </h3>
-                                        <p class="text-gray-600 line-clamp-2">
+                                        <p className="text-gray-600 line-clamp-2">
                                             Vestibulum vehicula dui venenatis neque tempor, accumsan
                                             iaculis sapien ornare.
                                         </p>
                                     </div>
                                 </a>
-                                <a href="#" class="group flex-1 min-w-[250px] overflow-hidden transform transition-all duration-500 ease-in-out hover:flex-[1.7] " >
-                                    <div class="overflow-hidden">
-                                        <a href='Figma_ipsum'>
-                                            <img src="https://cdn.sanity.io/images/t24406rz/production/3b37a0171adc660da61882c0a3ab64ee01594914-784x666.png?w=784&q=100&fit=clip&auto=format" alt="Card 2" class="w-full h-64 sm:h-80 object-cover transform transition duration-500 ease-in-out group-hover:scale-110" />
-                                        </a>
+                                <a href="#" className="group flex-1 min-w-[250px] overflow-hidden transform transition-all duration-500 ease-in-out hover:flex-[1.7] " >
+                                    <div className="overflow-hidden">
+                                        <span href='Figma_ipsum'>
+                                            <img src="https://cdn.sanity.io/images/t24406rz/production/3b37a0171adc660da61882c0a3ab64ee01594914-784x666.png?w=784&q=100&fit=clip&auto=format" alt="Card 2" className="w-full h-64 sm:h-80 object-cover transform transition duration-500 ease-in-out group-hover:scale-110" />
+                                        </span>
                                     </div>
-                                    <div class="p-4 transition-transform duration-500 ease-in-out group-hover:-translate-y-2" >
-                                        <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-2"> Figma ipsum </h3>
-                                        <p class="text-gray-600 line-clamp-2">
+                                    <div className="p-4 transition-transform duration-500 ease-in-out group-hover:-translate-y-2" >
+                                        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-2"> Figma ipsum </h3>
+                                        <p className="text-gray-600 line-clamp-2">
                                             Vestibulum vehicula dui venenatis neque tempor, accumsan
                                             iaculis sapien ornare.
                                         </p>
@@ -61,26 +61,26 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section class="mb-20 max-w-[1920px] w-full mx-auto">
-                    <div class="text-white relative">
-                        <section class="relative w-full grid grid-cols-1 lg:grid-cols-2">
-                            <div class="absolute inset-0 lg:hidden -z-0 max-h-[700px]">
-                                <img src={home} alt="Background Mobile" class="w-full h-full object-cover" />
-                                <div class="absolute inset-0 bg-black/70"></div>
+                <section className="mb-20 max-w-[1920px] w-full mx-auto">
+                    <div className="text-white relative">
+                        <section className="relative w-full grid grid-cols-1 lg:grid-cols-2">
+                            <div className="absolute inset-0 lg:hidden -z-0 max-h-[700px]">
+                                <img src={home} alt="Background Mobile" className="w-full h-full object-cover" />
+                                <div className="absolute inset-0 bg-black/70"></div>
                             </div>
-                            <div class="relative z-10 flex flex-col justify-center min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-screen lg:bg-black" >
-                                <div class="max-w-full px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
-                                    <p class="text-xs text-gray-300 mb-2">New Release</p>
-                                    <h1 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug mb-3"> Working Smarter — A podcast about AI and modern work </h1>
-                                    <p class="text-sm sm:text-base md:text-lg text-gray-300 mb-4">Vestibulum vehicula dui venenatis neque tempor, accumsan iaculis sapien ornare. </p>
-                                    <a href="ourstory" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 sm:px-6 py-2 rounded-full w-max text-xs sm:text-sm md:text-base" >
+                            <div className="relative z-10 flex flex-col justify-center min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-screen lg:bg-black" >
+                                <div className="max-w-full px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
+                                    <p className="text-xs text-gray-300 mb-2">New Release</p>
+                                    <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug mb-3"> Working Smarter — A podcast about AI and modern work </h1>
+                                    <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4">Vestibulum vehicula dui venenatis neque tempor, accumsan iaculis sapien ornare. </p>
+                                    <a href="ourstory" className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 sm:px-6 py-2 rounded-full w-max text-xs sm:text-sm md:text-base" >
                                         Read More
                                     </a>
                                 </div>
                             </div>
                             <div
-                                class="hidden lg:block" >
-                                <img src={home} alt="Abstract Background" class="w-full h-full object-cover" />
+                                className="hidden lg:block" >
+                                <img src={home} alt="Abstract Background" className="w-full h-full object-cover" />
                             </div>
                         </section>
                     </div>
@@ -162,4 +162,4 @@ function Home() {
     )
 }
 
-export default Home
+export default HomePage

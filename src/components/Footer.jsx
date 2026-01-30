@@ -18,7 +18,7 @@ function Footer() {
                             <div className='w-full flex flex-col gap-2 '>
                                 <div className='w-full flex flex-col lg:flex-row gap-4 lg:gap-2 items-start lg:items-center'>
                                     <input className='font-[Raleway] max-w-[300px] sm:max-w-[440px] w-full py-2 sm:py-[12.5px] px-8 rounded-4xl border text-[20px] sm:text-lg lg:text-xl leading-[100%] text-white placeholder:text-white/40 bg-white/10' type="text" placeholder='Your email address' />
-                                    <button class=" bg-white cursor-pointer py-3 md:py-4 px-8 md:px-12  md:text-xl rounded-full font-bold text-[#2300C1] hover:bg-[#2300C1] hover:text-white">View More</button>
+                                    <button className=" bg-white cursor-pointer py-3 md:py-4 px-8 md:px-12  md:text-xl rounded-full font-bold text-[#2300C1] hover:bg-[#2300C1] hover:text-white">View More</button>
                                 </div>
                             </div>
                         </div>
