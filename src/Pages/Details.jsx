@@ -13,7 +13,7 @@ import Sd_3 from '../assets/images/sd_3.png'
 
 
 
-export default function StoryDetail() {
+export default function Details() {
     return (
         <>
             <Layout>
